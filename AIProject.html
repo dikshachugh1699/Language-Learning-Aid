@@ -1,0 +1,320 @@
+<html>
+	<head>
+			<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+		<title>Aid for Neurological Disorders</title>
+		<style type="text/css">
+			.jumbotron{
+				color: #f69844;
+				height: 30vw;
+				background-color: white;
+				background-image: url("https://img.freepik.com/free-vector/students-learning-foreign-language-with-vocabulary_74855-11070.jpg?size=626&ext=jpg");
+				background-size: 800px 450px;
+				background-repeat: no-repeat;
+				background-position: right;
+			}
+			.mean{
+				margin-right: 200px;
+			}
+			.card-img-top {
+			    width: 100%;
+			    height: 25vw;
+			    object-fit: cover;
+			}
+			.img-word{
+				height :30vw;
+				object-fit: cover;
+				padding-left: 50px;
+			}
+			
+
+			*{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+        	font-family: 'Roboto Slab', serif;
+        }
+        body{
+            background: #D3E0F0;
+        }
+        .row{
+            background-color : white;
+            padding-top: 40px;
+            margin-right:0px;
+            border-radius: 30px;
+        }
+        .container{
+            margin-top: 100px;
+            margin-bottom: 10px;
+            border-top-left-radius: 3px;
+            
+
+        }
+		#msg1{
+			background-color: white;
+			padding-top: 40px;
+			background:#FFF;
+			padding-left: 20px;
+			border-radius: 30px;
+			
+		}
+		.btn1:hover{
+            background:white;
+            border:1px solid #f26e5d;
+            color: #f26e5d;
+        }
+		.btn1{
+            border:none;
+            outline:none;
+            height:50px;
+            width:30%;
+            background-color: #f26e5d;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn1.btn2{
+        	width:30%;
+        	background-color: #91569a;
+        }
+        .btn1.btn2:hover{
+            background:white;
+            border:1px solid #91569a;
+            color: #91569a;
+        }
+        .btn1.btn3{
+        	width: 30%;
+        	background-color: #314e7b; 
+        }
+        .btn1.btn3:hover{
+        	background:white;
+        	border: 1px solid #314e7b;
+        	color: #314e7b ;
+        }
+       .p{
+        	font-weight: bold;
+        }
+		#formpage{
+			color:#f26e5d;
+			margin-top: 20px;
+			margin-left: 0px;
+			padding-left: 0px;
+		}
+		.img1{
+			padding-left: 20px;
+			size: 200px 200px;
+		}
+		.img-fluid{
+			max-width: 600px;
+			height:400px;
+		}
+		.navbar.sticky-top.navbar-light{
+			background-color: white;
+		}
+
+		.soundimg{
+			padding-left: 10px;
+			align-content: center;
+			padding-right: 0px;
+			margin-right: 0px;
+			height: 400px;
+		}
+		#reader{
+			color: #91569a;
+			margin-top: 20px;
+			margin-left: 0px;
+			padding-left: 0px;
+		}
+		#readout{
+			width:300px;
+			border: 2px solid #91569a;
+			border-radius: 5px;
+			padding: 12px;
+			margin: 20px;
+		}
+		#output{
+			width : 300px;
+			border: 2px solid #314e7b;
+			border-radius: 5px;
+
+			padding: 12px;
+			margin: 20px;
+			color: #314e7b;
+
+		}
+		#action{
+			color: #5abaa4;;
+			
+		}
+		@font-face{
+			font-family: 'OpenDyslexic-Regular';
+			src: url('C:/users/diksha/Documents/OpenDyslexic-Regular.otf');
+		}
+		.dysFont{
+			font-family: 'OpenDyslexic-Regular';
+		}
+		
+		</style>
+	</head>
+	<body>
+	<div>
+		<nav class="navbar navbar-light">
+			<a class="navbar-brand ml-2 pl-2" style="color: #5159FC;" href="#"><b>LEARNING AID</b></a>
+			<div class="nav justify-content-end mt-2" class="link">
+            		<a class="nav-link btn btn-primary mr-4" href="#formpage" >Speak</a>
+            		<a class="nav-link btn btn-primary mr-4" href="#reader">Read</a>
+            		<a class="nav-link btn btn-primary" href="#speaker">Write</a>
+          	 </div>
+		</nav>
+	</div>
+
+
+
+
+		<section class="Form my-0 mx-0">
+		<div class="container">
+			<div class="row">
+				<div class="col pr-0 mr-0 " id="msg1">
+					<img src="https://img.freepik.com/free-vector/concept-online-library-bookstores-applications-reading-downloading-books-audiobooks-vector-illustration_276104-38.jpg?size=338&ext=jpg" class="soundimg">
+				</div>
+				<div class="col pl-0 ml-0 pr-1 mr-4 pb-5" id="formpage">
+					<h1 style="font-family: 'Fira Sans', sans-serif; "class="font-weight-bold py-3 pt-4">Speak With me!</h1>
+					<p style="color: #636363;">Enter words or sentences and hit play to get the pronounciations and improve upon your phonological understanding. You can change the speed as per your pace of learning.</p>
+					<!--< h4>Sign in to your account</h4> -->	
+					<input type="text" id="word" class="form-control" placeholder="Input Text">
+					<div class="middle mt-4">
+						
+  							<label for="slider"><b>Speed</b></label>
+  							<input class="slider" type="range" id="slider" name="points" min="0" max="100" value="40">
+  						
+  					</div>
+					<button class="btn1 mt-3" id="play"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 16 16">
+  					<path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
+ 					<path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"/>
+  					<path d="M10.025 8a4.486 4.486 0 0 1-1.318 3.182L8 10.475A3.489 3.489 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.486 4.486 0 0 1 10.025 8zM7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12V4zM4.312 6.39L6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11z"/>
+
+					</svg>  Play</button>
+				</div>			
+			</div>
+			</div>
+			</section>
+		<section class="Form my-6 mx-2">
+		<div class="container">
+			<div class="row">
+				<div class="col" id="msg1">
+					<img src="https://image.freepik.com/free-vector/man-listening-music-headphones-home_23-2148428439.jpg" class="soundimg">
+				</div>
+				<div class="col pr-5 mr-4  pb-5" id="reader">
+					<h1 style="font-family: 'Fira Sans', sans-serif;" class="font-weight-bold py-3 pt-4">Read with me!</h1>
+					<p style="color: #5ea9be;">Improve your reading skills with this friendly read along. Enter lines or paragraphs and press on read. You can also read in dyslexia friendly font by just selecting the button below. Alter the speed according to your convenience.</p>
+					<input type="text" id="usertext"class="form-control" placeholder="Input Text">
+					<div class="middle mt-4">
+						
+  							<label for="slider2"><b>Speed</b></label>
+  							<input class="slider2" type="range" id="slider2" name="points" min="0" max="100" value="40">
+  						
+  					</div>
+					<div class="custom-control custom-checkbox mt-2">
+		  				<input type="checkbox" class="custom-control-input" id="customCheck1" onchange="changeFont()">
+		  				<label class="custom-control-label" for="customCheck1"><b>Dyslexia Friendly Font</b></label>
+					</div>
+					<button id="read" class="btn1 btn2 mt-3 pl-1" onclick="show()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-card-text" viewBox="0 0 16 16">
+  					<path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+  					<path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+					</svg>   Read</button>
+					
+					<p id="readout" class="nonDysFont"><span id="loc"></span></p>
+				</div>				
+			</div>
+		</div>
+		</section>
+
+		<section class="Form my-6 mx-2">
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col mb-2" id="msg1">
+					<img src="https://img.freepik.com/free-vector/people-with-mobile-phones-using-smart-voice-assistant-software-man-woman-near-screen-with-microphone-soundwaves-sound-recording-app-interface-ai-technology-concept_74855-10131.jpg?size=626&ext=jpg" class="soundimg">
+				</div>
+				<div class="col pr-5 mr-4  pb-5" id="speaker">
+					<h1 style="font-family: 'Fira Sans', sans-serif; color: #314e7b;" class="font-weight-bold py-3 pt-4">Write with me!</h1>
+					<p style="color: #5abaa4;" id="dys"><b>Click on the button and speak</b></p>
+					<p style="color: #5abaa4;">Speak words or lines by clicking on the mic and get text for that speech and improve upon your syntactical knowledge. You can read in dyslexia friendly font by checking on the button below.</p>
+
+					<p><button class="btn1 btn3" type="button" onclick="runSpeechRecognition()"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+  					<path fill-rule="evenodd" d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+  					<path fill-rule="evenodd" d="M10 8V3a2 2 0 1 0-4 0v5a2 2 0 1 0 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+					</svg> Speak</button> &nbsp; <span id="action"></span></p>
+					<div class="custom-control custom-checkbox mt-2">
+		  				<input type="checkbox" class="custom-control-input" id="customCheck2" onchange="changeFontSpeech()">
+		  				<label class="custom-control-label" for="customCheck2" style="color: #5abaa4;"><b>Dyslexia Friendly Font</b></label>
+					</div>
+					<div id="output" class="nonDysFont"></div>
+				</div>				
+			</div>
+		</div>
+		</section>
+
+
+
+	<!-- 	<div class="split left">
+			<div class="centered">
+				<h2>Pronounciation</h2>
+			</div>
+		</div>
+		<div class="split right">
+			<div class="centered">
+				<h2>Reader</h2>
+			</div>
+		</div> -->
+		
+		<!-- <div class="container">
+			<input class="form-control" id="text" type="text" placeholder="Default input">
+			<button type="button" id="read" class="btn btn-primary mt-3">Read</button>
+		</div> -->
+		<!-- <div class="container mt-5"id="exp">The color of animals is by no means a matter of chance ; it depends on many considerations , but in the majority of cases tends to protect the animal from danger by rendering it less conspicuous. Perhaps it may be said that if coloring is mainly protective, there ought to be but few brightly colored animals. There are, however, not a few cases in which vivid colors are themselves protective. The kingfisher itself, though so brightly colored, is by no means easy to see. The blue harmonizes with the water, and the bird as it darts along the stream looks almost like a flash of sunlight.
+		</div> -->
+		<!-- <div class="container mt-5">
+			<div class="row">
+			  <div class="col-sm-6">
+			    <div class="card">
+			    	<img class="card-img-top img-thumbnail" id="i" src="https://st2.depositphotos.com/28056134/44975/v/380/depositphotos_449751252-stock-illustration-vector-illustration-metaphor-enlarged-book.jpg" alt="Card image cap">
+			      <div class="card-body">
+			        <h5 class="card-title">Pronounciation</h5>
+			        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			        <input class="form-control my-3" id="word" type="text" placeholder="Input Text">
+			        <button id="play" class="btn btn-primary">Play</button>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6">
+			    <div class="card">
+			    	<img class="card-img-top img-thumbnail" src="https://www.creativefabrica.com/wp-content/uploads/2020/04/06/Reading-Ebook-Flat-Design-Illustration-Graphics-3807092-1-1-580x387.jpg" alt="Card image cap">
+			      <div class="card-body">
+			        <h5 class="card-title">Reader</h5>
+			        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			        <input class="form-control my-3" id="usertext" type="text" name="reader" placeholder="Paragraph input">
+			        <input type="submit" class="btn btn-primary" onclick="show()"></input>
+			        
+			        <p><span id="loc"></span></p>
+			        <button id="read" class="btn btn-primary">Read</button>
+			        
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+ -->
+		<script src="AIjs.js"></script>
+		<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
